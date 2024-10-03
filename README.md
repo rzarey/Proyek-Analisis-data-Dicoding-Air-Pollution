@@ -1,6 +1,7 @@
+```markdown
 # Air Quality Analysis Dashboard: Beijing
 
-[![Screenshot of Dashboard](link-ke-screenshot.png)]([https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git](https://beijingairpollution.streamlit.app))
+[![Screenshot of Dashboard](link-ke-screenshot.png)](https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git)
 
 ## Project Overview
 
@@ -21,64 +22,51 @@ This project was created as part of a Dicoding final project in collaboration wi
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git
-content_copy
-Use code with caution.
-Markdown
+   ```
 
-Navigate to the Project Directory:
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd Proyek-Analisis-data-Dicoding-Air-Pollution
+   ```
 
-cd Proyek-Analisis-data-Dicoding-Air-Pollution
-content_copy
-Use code with caution.
-Bash
+3. **Create a Virtual Environment (Recommended):**
+   ```bash
+   python -m venv .venv 
+   ```
 
-Create a Virtual Environment (Recommended):
+4. **Activate the Virtual Environment:**
+   - **Windows:**
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source .venv/bin/activate
+     ```
 
-python -m venv .venv
-content_copy
-Use code with caution.
-Bash
+5. **Install Required Libraries:**
+   ```bash
+   pip install -r requirements.txt 
+   ```
 
-Activate the Virtual Environment:
+6. **Run the Streamlit App:**
+   ```bash
+   streamlit run dashboard.py
+   ```
 
-Windows:
+The dashboard will open in your web browser. 
 
-.venv\Scripts\activate
-content_copy
-Use code with caution.
-Bash
+## Data
 
-macOS/Linux:
+The dataset used in this project contains hourly air quality measurements from 12 stations in Beijing. You can find the data files in the `data` directory. 
 
-source .venv/bin/activate
-content_copy
-Use code with caution.
-Bash
+## Author
 
-Install Required Libraries:
+- **Name:** Reyhanssan islamey
+- **Email:** m179b4ky3775@bangkit.academy
+- **Dicoding Profile:** [https://www.dicoding.com/users/imalivejustin/academies](https://www.dicoding.com/users/imalivejustin/academies)
 
-pip install -r requirements.txt
-content_copy
-Use code with caution.
-Bash
+## Demo
 
-Run the Streamlit App:
-
-streamlit run dashboard.py
-content_copy
-Use code with caution.
-Bash
-
-The dashboard will open in your web browser.
-
-Data
-
-The dataset used in this project contains hourly air quality measurements from 12 stations in Beijing. You can find the data files in the data directory.
-
-Author
-
-Name: Reyhanssan islamey
-
-Email: m179b4ky3775@bangkit.academy
-
-Dicoding Profile: [https://www
+You can try a live demo of the dashboard here: [https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git](https://beijingairpollution.streamlit.app)
+```

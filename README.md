@@ -1,6 +1,6 @@
 # Air Quality Analysis Dashboard: Beijing
 
-[![Screenshot of Dashboard](https://beijingairpollution.streamlit.app)](https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git)
+[![Screenshot of Dashboard](dashboard.png)](https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git)
 
 ## Project Overview
 
@@ -67,4 +67,4 @@ The dataset used in this project contains hourly air quality measurements from 1
 
 ## Demo
 
-You can try a live demo of the dashboard here: [https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git](https://beijingairpollution.streamlit.app)
+You can try a live demo of the dashboard here: [Beijing Air Pollution](https://beijingairpollution.streamlit.app)

@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 from statsmodels.tsa.seasonal import seasonal_decompose
 import os
 
-data_path = r"D:\Kuliah\Semester 5\BANGKIT\Dicoding Air Quality Analysis\data"
-# data_path = r"./data"
+# data_path = r"D:\Kuliah\Semester 5\BANGKIT\Dicoding Air Quality Analysis\data"
+data_path = r"data"
 
 def load_data(file_name):
     df = pd.read_csv(os.path.join(data_path, file_name))

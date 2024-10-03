@@ -1,4 +1,3 @@
-```markdown
 # Air Quality Analysis Dashboard: Beijing
 
 [![Screenshot of Dashboard](link-ke-screenshot.png)](https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git)
@@ -69,4 +68,3 @@ The dataset used in this project contains hourly air quality measurements from 1
 ## Demo
 
 You can try a live demo of the dashboard here: [https://github.com/rzarey/Proyek-Analisis-data-Dicoding-Air-Pollution.git](https://beijingairpollution.streamlit.app)
-```
